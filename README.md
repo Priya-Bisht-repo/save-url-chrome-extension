@@ -1,19 +1,58 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🔖 Save URL Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple yet handy **Chrome Extension** that lets you **save and store URLs** with just one click! Ideal for bookmarking useful links, articles, or references directly from your browser.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+> 📚 Built by following [Scrimba’s Chrome Extension tutorial](https://scrimba.com/learn/learnjavascript/), with some personal improvements!
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
 
-Happy Coding!
+## ✨ Features
+
+- 🔗 Save the current tab's URL with one click  
+- 📝 Add custom URLs manually  
+- 🗑️ Clear all saved URLs instantly  
+- 💾 Persistent storage using `localStorage`  
+- ⚡ Fast, minimal, and responsive UI  
+
+---
+
+## 🖼️ Preview
+
+![image](https://github.com/user-attachments/assets/fa1146fa-7119-4e5c-9a4a-f8acf3a324af)
+
+
+---
+
+## 🧠 How It Works
+
+1. Click **Save Tab** to store the URL of your current tab.
+2. Or manually enter a URL and click **Save Input**.
+3. All saved URLs appear as clickable links.
+4. Hit **Delete All** to clear all saved URLs.
+
+Everything is saved using `localStorage`, so your links stay even after closing the browser or refreshing the page!
+
+---
+
+## 🛠️ Installation Guide
+
+To install this extension manually:
+
+1. Clone or download this repository.
+2. Open **Google Chrome** and go to  
+   `chrome://extensions/`
+3. Enable **Developer Mode** (top-right toggle).
+4. Click **Load unpacked**.
+5. Select the extension folder (where your `manifest.json` is located).
+
+That's it! ✅ You’ll now see your extension icon in Chrome’s toolbar.
+
+---
+## 🙌 Credits
+
+Made with ❤️ while learning from  
+🎓 [Scrimba – Learn JavaScript for Free](https://scrimba.com/learn/learnjavascript)  
+
+Thanks to the Scrimba team for the awesome learning experience!
+
+---
